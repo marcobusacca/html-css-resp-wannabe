@@ -154,6 +154,10 @@ img {
         }
     /* FINE LESSONS SECTION */
     /* STEPS SECTION */
+        .steps{
+            margin: 3rem 0 0;
+        }
+
         .steps .col{
             width: 100%;
         }
@@ -163,6 +167,12 @@ img {
         }
     /* FINE STEPS SECTION */
     /* WHY US SECTION */
+        .why-us {
+            background-color: #222222;
+            margin-bottom: 0;
+            padding: 3rem 0;
+        }
+
         .why-us .col{
             width: 100%;
         }
