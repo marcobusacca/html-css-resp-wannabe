@@ -128,32 +128,37 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
  /* DESKTOP FIRST */
+ @media screen and (max-width: 1160px){
+    .container{
+        width: 100%;
+    }
+ }
  /* TABLET RESPONSIVE */
- @media screen and (max-width: 768px) {
-    .container {
+ @media screen and (max-width: 768px){
+    .container{
         width: 100%;
     }
 }
 /* MOBILE RESPONSIVE */
-@media screen and (max-width: 480px) {
-    .row {
+@media screen and (max-width: 480px){
+    .row{
         flex-direction: column;
     }
     /* LESSONS SECTION */
-        .lessons .col {
+        .lessons .col{
             width: 100%;
         }
 
-        .lessons .col:last-child {
+        .lessons .col:last-child{
             margin-top: 4rem;
         }
     /* FINE LESSONS SECTION */
     /* STEPS SECTION */
-        .steps .col {
+        .steps .col{
             width: 100%;
         }
 
-        .steps .col:not(:first-child) > .card {
+        .steps .col:not(:first-child) > .card{
             margin-top: 4rem;
         }
     /* FINE STEPS SECTION */
@@ -162,7 +167,7 @@ img {
             width: 100%;
         }
 
-        .why-us .col-right {
+        .why-us .col-right{
             margin-top: 4rem;
         }
     /* FINE WHY US SECTION */
