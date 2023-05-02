@@ -140,45 +140,45 @@ img {
     }
 }
 /* MOBILE RESPONSIVE */
-@media screen and (max-width: 480px){
-    .row{
-        flex-direction: column;
+    @media screen and (max-width: 480px){
+        .row{
+            flex-direction: column;
+        }
+        /* LESSONS SECTION */
+            .lessons .col{
+                width: 100%;
+            }
+
+            .lessons .col:last-child{
+                margin-top: 4rem;
+            }
+        /* FINE LESSONS SECTION */
+        /* STEPS SECTION */
+            .steps{
+                margin: 3rem 0 0;
+            }
+
+            .steps .col{
+                width: 100%;
+            }
+
+            .steps .col:not(:first-child) > .card{
+                margin-top: 4rem;
+            }
+        /* FINE STEPS SECTION */
+        /* WHY US SECTION */
+            .why-us {
+                background-color: #222222;
+                margin-bottom: 0;
+                padding: 3rem 0;
+            }
+
+            .why-us .col{
+                width: 100%;
+            }
+
+            .why-us .col-right{
+                margin-top: 4rem;
+            }
+        /* FINE WHY US SECTION */
     }
-    /* LESSONS SECTION */
-        .lessons .col{
-            width: 100%;
-        }
-
-        .lessons .col:last-child{
-            margin-top: 4rem;
-        }
-    /* FINE LESSONS SECTION */
-    /* STEPS SECTION */
-        .steps{
-            margin: 3rem 0 0;
-        }
-
-        .steps .col{
-            width: 100%;
-        }
-
-        .steps .col:not(:first-child) > .card{
-            margin-top: 4rem;
-        }
-    /* FINE STEPS SECTION */
-    /* WHY US SECTION */
-        .why-us {
-            background-color: #222222;
-            margin-bottom: 0;
-            padding: 3rem 0;
-        }
-
-        .why-us .col{
-            width: 100%;
-        }
-
-        .why-us .col-right{
-            margin-top: 4rem;
-        }
-    /* FINE WHY US SECTION */
-}
