@@ -162,7 +162,7 @@ img {
                 width: 100%;
             }
 
-            .steps .col:not(:first-child) > .card{
+            .steps .col:not(:first-child){
                 margin-top: 4rem;
             }
         /* FINE STEPS SECTION */
